@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fonts">
+      <UniqueIdentifier>{59428e02-f5ac-4444-aaff-141a2fab3ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{a2063eeb-56ef-4e6b-859f-c440c9bb8bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{e73bc43d-c339-4145-a727-a6ec3c1128b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c2079538-47a9-4368-a9b4-d54d6a3d0d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keiro">
+      <UniqueIdentifier>{c263166f-1cf2-4a5c-8313-8f07c67fd582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{edb9c80f-8903-4fae-9338-d8414e7d60ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{534950c7-c16a-42d0-a2ca-1e59f2cda02f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\ImGui_ShaderBlobs.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\kiero\kiero.h">
+      <Filter>keiro</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="style.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimporter.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_draw_api.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="tahoma.ttf.h">
+      <Filter>fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\ImGui_ShaderBlobs.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\kiero\kiero.cpp">
+      <Filter>keiro</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="includes\imgui\LICENSE.txt">
+      <Filter>imgui</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\aoc fat\aoc aio\minhook\minhook.lib" />
+  </ItemGroup>
+</Project>
